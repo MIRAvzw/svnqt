@@ -62,7 +62,10 @@ void svn::Repository::CreateOpen(const QString&path, const QString&fstype, bool 
  */
 void svn::Repository::dump(const QString&output,const svn::Revision&start,const svn::Revision&end, bool incremental, bool use_deltas)throw (ClientException)
 {
-    /// @todo implement me
+    svn_error_t * error = m_Data->dump(output,start,end,incremental,use_deltas);
+    if (error!=0) {
+        throw ClientException (error);
+    }
 }
 
 
