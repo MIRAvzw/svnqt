@@ -31,6 +31,8 @@
 
 namespace svn {
 
+namespace repository {
+
 class Repository;
 class RepositoryListener;
 /**
@@ -50,6 +52,7 @@ public:
 
     void reposFsWarning(const QString&msg);
     svn_error_t* dump(const QString&output,const svn::Revision&start,const svn::Revision&end, bool incremental, bool use_deltas);
+    static svn_error_t* hotcopy(const QString&src,const QString&dest,bool cleanlogs);
 
 protected:
     Pool m_Pool;
@@ -60,6 +63,8 @@ private:
     static void warning_func(void *baton, svn_error_t *err);
     static svn_error_t*cancel_func(void*baton);
 };
+
+}
 
 }
 
