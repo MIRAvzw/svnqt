@@ -1,3 +1,8 @@
+QT += core sql
+
+DEPENDPATH += $$PWD
+INCLUDEPATH += $$PWD /usr/include/subversion-1 /usr/include/apr-1
+
 SOURCES += \
 	$$PWD/cache/ReposConfig.cpp \
 	$$PWD/cache/LogCache.cpp \
