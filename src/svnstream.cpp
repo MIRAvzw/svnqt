@@ -23,10 +23,10 @@
  ***************************************************************************/
 #include "svnstream.h"
 #include "pool.h"
-#include "apr.h"
+#include <apr-1/apr_general.h>
 
 // Subversion api
-#include "svn_client.h"
+#include <subversion-1/svn_client.h>
 
 #include <qbuffer.h>
 #include <qdatetime.h>

@@ -27,7 +27,7 @@
 #include "client.h"
 
 #include "svnqt_global.h"
-#include <svn_types.h>
+#include <subversion-1/svn_types.h>
 #include <apr.h>
 
 // forward declarations

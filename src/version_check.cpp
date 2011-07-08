@@ -27,8 +27,8 @@
 #include <config.h>
 #endif
 
-#include <svn_version.h>
-#include <svn_client.h>
+#include <subversion-1/svn_version.h>
+#include <subversion-1/svn_client.h>
 
 #include <qstring.h>
 

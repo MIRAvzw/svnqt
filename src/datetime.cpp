@@ -29,7 +29,7 @@
  */
 
 // apr
-#include "apr_date.h"
+#include <apr-1/apr_date.h>
 
 // svncpp
 #include "datetime.h"

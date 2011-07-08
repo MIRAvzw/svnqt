@@ -35,8 +35,8 @@
 #include "client_impl.h"
 #include "exception.h"
 
-#include "svn_opt.h"
-#include "svn_ra.h"
+#include <subversion-1/svn_opt.h>
+#include <subversion-1/svn_ra.h>
 
 #include <qmap.h>
 #include <qstringlist.h>

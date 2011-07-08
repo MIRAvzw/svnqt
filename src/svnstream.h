@@ -28,7 +28,7 @@
 #include "svnqt_global.h"
 #include <qstring.h>
 
-#include <svn_io.h>
+#include <subversion-1/svn_io.h>
 struct svn_client_ctx_t;
 
 namespace svn {

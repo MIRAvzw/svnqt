@@ -23,8 +23,8 @@
  ***************************************************************************/
 #include "info_entry.h"
 #include "pool.h"
-#include <svn_client.h>
-#include <svn_path.h>
+#include <subversion-1/svn_client.h>
+#include <subversion-1/svn_path.h>
 
 namespace svn
 {

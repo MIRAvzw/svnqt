@@ -35,7 +35,7 @@
 #include "client_annotate_parameter.h"
 
 // Subversion api
-#include "svn_client.h"
+#include <subversion-1/svn_client.h>
 
 
 

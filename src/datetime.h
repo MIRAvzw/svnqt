@@ -36,7 +36,7 @@
 
 // subversion api
 #include "svnqt_global.h"
-#include "svn_types.h"
+#include <subversion-1/svn_types.h>
 
 
 namespace svn

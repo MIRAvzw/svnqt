@@ -26,9 +26,9 @@
 
 #include <qfile.h>
 
-#include <svn_version.h>
-#include <svn_io.h>
-#include <svn_path.h>
+#include <subversion-1/svn_version.h>
+#include <subversion-1/svn_io.h>
+#include <subversion-1/svn_path.h>
 
 namespace svn
 {

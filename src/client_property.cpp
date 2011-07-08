@@ -34,8 +34,8 @@
 #include "client_impl.h"
 
 // subversion api
-#include "svn_client.h"
-//#include "svn_utf.h"
+#include <subversion-1/svn_client.h>
+//#include <subversion-1/svn_utf.h>
 
 #include "path.h"
 #include "exception.h"

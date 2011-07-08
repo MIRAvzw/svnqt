@@ -27,9 +27,9 @@
 #include "svnfilestream.h"
 #include "repoparameter.h"
 
-#include <svn_fs.h>
-#include <svn_path.h>
-#include <svn_config.h>
+#include <subversion-1/svn_fs.h>
+#include <subversion-1/svn_path.h>
+#include <subversion-1/svn_config.h>
 
 namespace svn {
 

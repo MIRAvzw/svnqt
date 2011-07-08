@@ -23,7 +23,7 @@
  ***************************************************************************/
 #include "conflictdescription.h"
 
-#include <svn_wc.h>
+#include <subversion-1/svn_wc.h>
 
 namespace svn {
 

@@ -29,7 +29,7 @@
  */
 
 // subversion api
-#include "svn_wc.h"
+#include <subversion-1/svn_wc.h>
 
 // svncpp
 #include "exception.h"

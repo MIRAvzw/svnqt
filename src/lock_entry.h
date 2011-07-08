@@ -38,11 +38,11 @@
 #include "svnqt_global.h"
 
 // apr
-#include "apr_time.h"
+#include <apr-1/apr_time.h>
 
 // subversion api
-#include "svn_types.h"
-#include "svn_wc.h"
+#include <subversion-1/svn_types.h>
+#include <subversion-1/svn_wc.h>
 
 namespace svn
 {

@@ -33,9 +33,9 @@
 #include "stringarray.h"
 
 // subversion api
-#include "svn_time.h"
+#include <subversion-1/svn_time.h>
 #if ((SVN_VER_MAJOR == 1) && (SVN_VER_MINOR >= 5)) || (SVN_VER_MAJOR > 1)
-#include "svn_compat.h"
+#include <subversion-1/svn_compat.h>
 #endif
 
 

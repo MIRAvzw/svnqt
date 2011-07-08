@@ -28,7 +28,7 @@ struct svn_wc_conflict_description_t;
 
 #include "svnqt_global.h"
 #include "pool.h"
-#include <svn_types.h>
+#include <subversion-1/svn_types.h>
 
 #include <qstring.h>
 

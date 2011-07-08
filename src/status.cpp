@@ -33,7 +33,7 @@
 #include "path.h"
 #include "url.h"
 
-#include "svn_path.h"
+#include <subversion-1/svn_path.h>
 
 namespace svn
 {

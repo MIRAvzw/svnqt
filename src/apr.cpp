@@ -29,10 +29,10 @@
  */
 
 // apr
-#include "apr_general.h"
+#include "apr.h"
 
 // svncpp
-#include "apr.h"
+#include <apr-1/apr_general.h>
 
 
 /**

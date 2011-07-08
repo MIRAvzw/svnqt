@@ -27,12 +27,12 @@
 #include "svnqt_global.h"
 #include "pool.h"
 #include "revision.h"
-#include "apr.h"
+#include <apr-1/apr_general.h>
 
 #include <qstring.h>
 
-#include <svn_repos.h>
-#include <svn_error.h>
+#include <subversion-1/svn_repos.h>
+#include <subversion-1/svn_error.h>
 
 namespace svn {
 

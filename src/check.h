@@ -33,7 +33,7 @@
 
 // subversion api
 #include "svnqt_global.h"
-#include "svn_version.h"
+#include <subversion-1/svn_version.h>
 
 /**
  * Check if the current version of the subversion

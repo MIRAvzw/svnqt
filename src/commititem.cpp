@@ -23,8 +23,8 @@
  ***************************************************************************/
 #include "commititem.h"
 
-#include <svn_client.h>
-#include <svn_props.h>
+#include <subversion-1/svn_client.h>
+#include <subversion-1/svn_props.h>
 
 namespace svn {
 

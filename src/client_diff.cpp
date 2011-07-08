@@ -34,8 +34,8 @@
 #include "client_impl.h"
 
 // Subversion api
-#include "svn_client.h"
-#include "svn_path.h"
+#include <subversion-1/svn_client.h>
+#include <subversion-1/svn_path.h>
 
 #include "exception.h"
 #include "pool.h"
@@ -47,7 +47,7 @@
 #include <qfile.h>
 #include <qstringlist.h>
 
-#include <apr_xlate.h>
+#include <apr-1/apr_xlate.h>
 
 namespace svn
 {

@@ -26,12 +26,12 @@
 
 #include "svnqt_global.h"
 #include "pool.h"
-#include "apr.h"
+#include <apr-1/apr_general.h>
 #include "commititem.h"
 
-#include <svn_client.h>
+#include <subversion-1/svn_client.h>
 #if (SVN_VER_MAJOR >= 1) && (SVN_VER_MINOR >= 4)
-#include <svn_auth.h>
+#include <subversion-1/svn_auth.h>
 #endif
 #include <qstring.h>
 

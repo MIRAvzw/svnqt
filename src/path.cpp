@@ -30,10 +30,10 @@
 
 
 // subversion api
-#include "svn_path.h"
+#include <subversion-1/svn_path.h>
 
 // apr api
-#include "apr_file_io.h"
+#include <apr-1/apr_file_io.h>
 
 // svncpp
 #include "path.h"

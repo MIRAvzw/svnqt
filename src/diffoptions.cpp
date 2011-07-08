@@ -26,7 +26,7 @@
 #include "stringarray.h"
 #include "pool.h"
 
-#include <svn_diff.h>
+#include <subversion-1/svn_diff.h>
 
 namespace svn
 {

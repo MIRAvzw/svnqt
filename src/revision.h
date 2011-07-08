@@ -40,8 +40,8 @@
 #include <QTextStream>
 
 // subversion api
-#include "svn_types.h"
-#include "svn_opt.h"
+#include <subversion-1/svn_types.h>
+#include <subversion-1/svn_opt.h>
 
 namespace svn
 {

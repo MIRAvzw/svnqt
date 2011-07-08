@@ -34,7 +34,7 @@
 #include "svnqt_global.h"
 
 // subversion api
-#include <svn_client.h>
+#include <subversion-1/svn_client.h>
 #include <qstring.h>
 
 namespace svn

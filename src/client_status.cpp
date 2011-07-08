@@ -37,10 +37,10 @@
 #include "helper.h"
 
 // Subversion api
-#include "svn_client.h"
-#include "svn_sorts.h"
-#include "svn_path.h"
-//#include "svn_utf.h"
+#include <subversion-1/svn_client.h>
+#include <subversion-1/svn_sorts.h>
+#include <subversion-1/svn_path.h>
+//#include <subversion-1/svn_utf.h>
 
 #include "dirent.h"
 #include "exception.h"

@@ -28,7 +28,7 @@
 #include "svnqt_global.h"
 #include "svnqttypes.h"
 #include "revision.h"
-#include <svn_types.h>
+#include <subversion-1/svn_types.h>
 
 #include <iostream>
 

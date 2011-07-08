@@ -35,9 +35,9 @@
 #include "client.h"
 #include "client_impl.h"
 
-#include "svn_opt.h"
+#include <subversion-1/svn_opt.h>
 
-#include <svn_cmdline.h>
+#include <subversion-1/svn_cmdline.h>
 
 #include <qstringlist.h>
 #include <qdir.h>

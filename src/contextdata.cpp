@@ -28,8 +28,8 @@
 #include "conflictresult.h"
 #include "conflictdescription.h"
 
-#include <svn_config.h>
-#include <svn_wc.h>
+#include <subversion-1/svn_config.h>
+#include <subversion-1/svn_wc.h>
 
 namespace svn {
 

@@ -38,11 +38,11 @@
 #include <QList>
 
 // apr
-#include "apr_time.h"
+#include <apr-1/apr_time.h>
 
 // subversion api
-#include "svn_types.h"
-#include "svn_version.h"
+#include <subversion-1/svn_types.h>
+#include <subversion-1/svn_version.h>
 
 namespace svn
 {
