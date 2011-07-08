@@ -23,6 +23,7 @@
 
 #include "svnqt_global.h"
 #include "pool.h"
+#include "apr.h"
 #include <apr-1/apr_general.h>
 #include "commititem.h"
 
