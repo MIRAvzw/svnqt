@@ -28,7 +28,7 @@
 #include "svnqt_global.h"
 
 // apr
-#include <apr-1/apr_time.h>
+#include <apr_time.h>
 
 // subversion api
 #include <subversion-1/svn_types.h>

@@ -27,7 +27,7 @@
 #include <QStringList>
 
 // apr api
-#include <apr-1/apr_tables.h>
+#include <apr_tables.h>
 
 namespace svn
 {

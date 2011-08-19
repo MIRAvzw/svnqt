@@ -38,7 +38,7 @@
 #include <qfile.h>
 #include <qstringlist.h>
 
-#include <apr-1/apr_xlate.h>
+#include <apr_xlate.h>
 
 namespace svn
 {

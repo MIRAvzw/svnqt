@@ -24,7 +24,7 @@
 #include "svnqt_global.h"
 #include "pool.h"
 #include "revision.h"
-#include <apr-1/apr_general.h>
+#include <apr_general.h>
 
 #include <qstring.h>
 

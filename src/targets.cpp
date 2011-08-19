@@ -22,8 +22,8 @@
 #include <subversion-1/svn_types.h>
 
 // apr api
-#include <apr-1/apr_pools.h>
-#include <apr-1/apr_strings.h>
+#include <apr_pools.h>
+#include <apr_strings.h>
 
 // svncpp
 #include "targets.h"

@@ -19,7 +19,7 @@
  */
  
 // Apache Portable Runtime
-#include <apr-1/apr_xlate.h>
+#include <apr_xlate.h>
 
 // Subversion api
 #include <subversion-1/svn_auth.h>
@@ -28,7 +28,7 @@
 //#include <subversion-1/svn_utf.h>
 
 // svncpp
-#include <apr-1/apr_general.h>
+#include <apr_general.h>
 #include "context.h"
 #include "context_listener.h"
 #include "contextdata.h"

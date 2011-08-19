@@ -22,7 +22,7 @@
 #include "apr.h"
 
 // svncpp
-#include <apr-1/apr_general.h>
+#include <apr_general.h>
 
 
 /**

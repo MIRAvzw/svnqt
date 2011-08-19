@@ -20,7 +20,7 @@
  
 #include "svnstream.h"
 #include "pool.h"
-#include <apr-1/apr_general.h>
+#include <apr_general.h>
 
 // Subversion api
 #include <subversion-1/svn_client.h>
