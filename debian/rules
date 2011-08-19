@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+override_dh_auto_configure:
+	cmake -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/usr .
+override_dh_strip:
+	dh_strip --dbg-package=libsvnqt2-dbg
+.PHONY: override_dh_strip override_dh_auto_configure
+

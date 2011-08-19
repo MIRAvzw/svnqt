@@ -1,0 +1,28 @@
+Source: libsvnqt2
+Maintainer: Tim Besard <tim.besard@gmail.com>
+Homepage: https://github.com/MIRAvzw/svnqt
+Priority: extra
+Build-Depends: debhelper (>= 7.0.50~), cmake, libqt4-dev, libsvn-dev
+Standards-Version: 3.8.4
+Vcs-Git: git://github.com/MIRAvzw/svnqt.git
+Vcs-Browser: https://github.com/MIRAvzw/svnqt
+
+Package: libsvnqt2
+Section: lib
+Architecture: any
+Depends: libqt4-core, libqt4-sql, libapr1, libaprutil1, libqt4-sql, libsvn1, ${misc:Depends}, ${shlibs:Depends}
+Description: svnqt is a Subversion library wrapped intended to provide easy
+ access to Subversion facilities from Qt. It is extracted from the KDESvn.
+
+Package: libsvnqt2-dev
+Section: libdevel
+Architecture: any
+Depends: libsvnqt2 (= ${Source-Version})
+Description: Development files for the Log4Qt library.
+
+Package: libsvnqt2-dbg
+Section: libdevel
+Architecture: any
+Depends: libsvnqt2 (= ${binary:Version}), ${misc:Depends}
+Description: Debug symbols for the Log4Qt library.
+
