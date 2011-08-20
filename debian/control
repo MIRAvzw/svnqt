@@ -11,18 +11,20 @@ Package: libsvnqt2
 Section: lib
 Architecture: any
 Depends: libqt4-core, libqt4-sql, libapr1, libaprutil1, libqt4-sql, libsvn1, ${misc:Depends}, ${shlibs:Depends}
-Description: svnqt is a Subversion library wrapped intended to provide easy
+Description: Qt wrapper library for Subversion
+ .
+ svnqt is a Subversion library wrapped intended to provide easy
  access to Subversion facilities from Qt. It is extracted from the KDESvn.
 
 Package: libsvnqt2-dev
 Section: libdevel
 Architecture: any
 Depends: libsvnqt2 (= ${Source-Version})
-Description: Development files for the Log4Qt library.
+Description: Qt wrapper library for Subversion (development files)
 
 Package: libsvnqt2-dbg
 Section: libdevel
 Architecture: any
 Depends: libsvnqt2 (= ${binary:Version}), ${misc:Depends}
-Description: Debug symbols for the Log4Qt library.
+Description: Qt wrapper library for Subversion (debug symbols)
 

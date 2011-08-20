@@ -1,4 +1,8 @@
-libsvnqt2 (0.1-1) unstable; urgency=low
+libsvnqt2 (0.1-2) unstable; urgency=low
+
+  * Packaging fixes.
+
+ -- Tim Besard <tim.besard@gmail.com>  Fri, 20 Aug 2011 14:48:05 +0000
 
   * Initial package.
 
