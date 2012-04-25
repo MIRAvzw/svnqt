@@ -123,9 +123,3 @@ namespace svn
     return m->contextAddListItem(entries,dirent,lock,path);
   }
 }
-
-/* -----------------------------------------------------------------
- * local variables:
- * eval: (load-file "../../rapidsvn-dev.el")
- * end:
- */

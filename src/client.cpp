@@ -86,9 +86,3 @@ namespace svn
     return 0L;
   }
 }
-
-/* -----------------------------------------------------------------
- * local variables:
- * eval: (load-file "../../rapidsvn-dev.el")
- * end:
- */

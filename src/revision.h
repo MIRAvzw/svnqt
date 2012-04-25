@@ -222,8 +222,3 @@ inline QTextStream& operator<<(QTextStream&s,svn::Revision&r)
 }
 
 #endif
-/* -----------------------------------------------------------------
- * local variables:
- * eval: (load-file "../../rapidsvn-dev.el")
- * end:
- */

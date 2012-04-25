@@ -104,8 +104,3 @@ SVNQT_EXPORT QDataStream &operator>>(QDataStream&s,svn::LogEntry&r);
 SVNQT_EXPORT QDataStream &operator>>(QDataStream&s,svn::LogChangePathEntry&r);
 
 #endif
-/* -----------------------------------------------------------------
- * local variables:
- * eval: (load-file "../../rapidsvn-dev.el")
- * end:
- */

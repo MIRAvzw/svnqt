@@ -123,9 +123,3 @@ namespace svn
     comment = lock_comment?QString::fromUtf8(lock_comment):"";
   }
 }
-
-/* -----------------------------------------------------------------
- * local variables:
- * eval: (load-file "../../rapidsvn-dev.el")
- * end:
- */

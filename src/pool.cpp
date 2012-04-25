@@ -65,9 +65,3 @@ namespace svn
     m_pool = pool_create (m_parent);
   }
 }
-
-/* -----------------------------------------------------------------
- * local variables:
- * eval: (load-file "../../rapidsvn-dev.el")
- * end:
- */
