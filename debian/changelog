@@ -1,11 +1,11 @@
-libsvnqt2 (0.1+git-2) unstable; urgency=low
+libsvnqt2 (1.7+git-2) unstable; urgency=low
 
   * Packaging fixes.
 
- -- Tim Besard <tim.besard@gmail.com>  Fri, 20 Aug 2011 14:48:05 +0000
+ -- Tim Besard <tim.besard@gmail.com>  Wed, 25 Apr 2012 10:34:05 +0200
 
-libsvnqt2 (0.1+git-1) unstable; urgency=low
+libsvnqt2 (1.7+git-1) unstable; urgency=low
 
   * Initial package.
 
- -- Tim Besard <tim.besard@gmail.com>  Fri, 19 Aug 2011 09:48:05 +0000
+ -- Tim Besard <tim.besard@gmail.com>  Fri, 19 Aug 2011 09:48:05 +0200
